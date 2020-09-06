@@ -1,7 +1,13 @@
-function hello() {
+function hello(name) {
 
-    console.log("Hello world")  ;
-
+    if(name == null)
+    {
+        console.log("Hello world")  ;
+    }
+    else
+    {
+        console.log( "Hello " + name) ;
+    }
 }
 
 hello();
